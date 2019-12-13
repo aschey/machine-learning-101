@@ -55,7 +55,7 @@ test_folder = 'chapter1/test-mails'
 train_data, train_labels = read_data(train_folder)
 test_data, test_labels = read_data(test_folder)
 
-count = clean_data(train_data, 2000)
+count = clean_data(train_data, 1000)
 train_features = extract_features(train_data, count)
 test_features = extract_features(test_data, count)
 
